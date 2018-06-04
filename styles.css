@@ -2,9 +2,9 @@ body { margin: 0; color: #666; font: normal 18px/28px Helvetica, Arial, sans-ser
 .clear { clear: both;}
 p { margin: 0; padding: 10px 0;}
 a { color: #333; text-decoration: none;}
-a:hover {text-decoration: none}
-a:focus {text-decoration: none}
-a:active {text-decoration: none}
+a:hover {text-decoration: none;color: white;cursor: pointer}
+a:focus {text-decoration: none;color: white;cursor: pointer}
+a:active {text-decoration: none;color: white;cursor: pointer}
 a img { border: none;}
 h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: bold; color: #000;}
 h1 { padding: 40px 0 24px; line-height: 1.4em;}
@@ -144,6 +144,16 @@ z-index: 1;
   left: 50%;
   margin-left: -234px;
 }
+.btn_order:hover {
+  background: #c03200;
+}
+.btn_order:active {
+   background: #c03200;
+ }
+.btn_order:focus {
+  background: #c03200;
+}
+
 .look_works {
   text-decoration: underline;
   color: #fff;
