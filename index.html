@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>порезка бетона</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap_header">
+
+<div class="head">
+  <div class="coll">
+    <div class="avatar"></div>
+    <img class="img_avatar"  src="img/person.png" alt="">
+    <div class="phone"><a href="#">+38 096 318 64 55</a></div>
+    <div class="callback_popup_open">
+      <div class="circlephone" style="transform-origin: center;"></div>
+      <div class="circle-fill" style="transform-origin: center;"></div>
+      <div class="img-circle" style="transform-origin: center;"><div class="img-circleblock" style="transform-origin: center;"></div></div>
+    </div>
+  </div>
+  <div class="hello">Доброго времени суток! Меня зовут Дмитрий <br>
+    Я буду Вашим персональным консультантом.</div>
+</div>
+  <div class="clear"></div>
+  <div class="header_form">
+    <div class="clients">частный сектор   •   Промышленность</div>
+    <h1>СВЕРЛЕНИЕ бетона</h1>
+    <p>Работаем с квартирами многоэтажек, частным сектором, ОСББ,
+      бюджетными организациями</p>
+    <a class="btn_order" href="#">Записаться на бесплатный замер</a>
+    <a class="look_works"  href="#works">СМОТРЕТЬ НАШИ РАБОТЫ</a>
+  </div>
+</div>
+  <div class="icon_works">
+    <div class="conteiner">
+    <div class="icon">
+      <img src="img/icon_1.png" alt="">
+      <p>Сверление отверстий в железобетоне.</p>
+    </div>
+    <div class="icon">
+      <img src="img/icon_2.png" alt="">
+      <p>Алмазное сверлерие</p>
+    </div>
+    <div class="icon">
+      <img src="img/icon_1.png" alt="">
+      <p>Алмазное бурение отверстий.</p>
+    </div>
+    <div class="icon">
+      <img src="img/icon_2.png" alt="">
+      <p>Алмазное сверление в бетоне под углом 45°</p>
+    </div>
+    <div class="icon">
+      <img src="img/icon_1.png" alt="">
+      <p>Сверление отверстий в бетоне, кирпиче  без пыли</p>
+    </div>
+    </div>
+  </div>
+<div class="works">
+  <div class="conteiner">
+  <h2>НАШИ РАБОТЫ</h2>
+    <div class="works_img">
+      <img src="img/img_1.jpg" alt="">
+      <img src="img/img_2.jpg" alt="">
+      <img src="img/img_1.jpg" alt="">
+      <span id="works"></span>
+      <img src="img/img_2.jpg" alt="">
+      <img src="img/img_1.jpg" alt="">
+      <img src="img/img_2.jpg" alt="">
+    </div>
+    <a class="btn_order works_btn" href="#">Записаться на бесплатный замер</a>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="callback-overlay" id="callback_popup">
+  <div class="callback-wrap">
+    <span class="callback_popup_close">X</span>
+    <div class="callback-content">
+      <div class="callback-content-header">
+        <p>Оставить заявку на звонок</p>
+        <span>В какое время к Вам перезвонить?</span>
+      </div>
+      <form action="callback.php" class="callback-form">
+        <div class="callback-content-body">
+          <div class="callback-inputs">
+            <input type="text" id="callback_phone" name="phone" placeholder="+380YYZZZXXXX" maxlength="13">
+            <input type="text" id="callback_time" name="time" placeholder="10:00" maxlength="5">
+            <select id="callback_day" name="day">
+              <option value="сегодня">Сегодня</option>
+              <option value="завтра">Завтра</option>
+            </select>
+          </div>
+          <input type="hidden" name="callback_submit" value="1">
+          <input type="submit" class="callback-submit js-callback-submit" value="Отправить заявку">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/jquery.popupoverlay.js"></script>
+<script src="js/common.js"></script>
+<script src="js/call_widget.js"></script>
+</html>
