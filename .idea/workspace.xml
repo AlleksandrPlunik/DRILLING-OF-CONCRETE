@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1851ade-44bf-4a8b-ab62-db5c6f2eb15e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/img/background.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/call.png" afterPath="$PROJECT_DIR$/img/call.png" />
-      <change beforePath="$PROJECT_DIR$/img/callback_mini.png" afterPath="$PROJECT_DIR$/img/callback_mini.png" />
-      <change beforePath="$PROJECT_DIR$/img/icon_1.png" afterPath="$PROJECT_DIR$/img/icon_1.png" />
-      <change beforePath="$PROJECT_DIR$/img/icon_2.png" afterPath="$PROJECT_DIR$/img/icon_2.png" />
-      <change beforePath="$PROJECT_DIR$/img/img_1.jpg" afterPath="$PROJECT_DIR$/img/img_1.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/img_2.jpg" afterPath="$PROJECT_DIR$/img/img_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/backgroun_main.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
@@ -25,8 +19,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="742" column="1" lean-forward="true" selection-start-line="742" selection-start-column="1" selection-end-line="742" selection-end-column="1" />
+            <state relative-caret-position="331">
+              <caret line="687" column="11" lean-forward="true" selection-start-line="687" selection-start-column="11" selection-end-line="687" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -35,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="374">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -81,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/../бетон_old/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3716">
-              <caret line="1127" column="19" lean-forward="true" selection-start-line="1127" selection-start-column="19" selection-end-line="1127" selection-end-column="19" />
+              <caret line="1127" column="19" lean-forward="false" selection-start-line="1127" selection-start-column="19" selection-end-line="1127" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -91,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/../бетон_old/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="13022">
-              <caret line="766" column="0" lean-forward="true" selection-start-line="765" selection-start-column="9" selection-end-line="766" selection-end-column="0" />
+              <caret line="766" column="0" lean-forward="false" selection-start-line="765" selection-start-column="9" selection-end-line="766" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/../бетон_old/callback.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -243,12 +237,12 @@
       <workItem from="1527883340908" duration="5654000" />
       <workItem from="1527960569741" duration="7621000" />
       <workItem from="1528110978650" duration="9743000" />
-      <workItem from="1528122551950" duration="24737000" />
+      <workItem from="1528122551950" duration="26260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47755000" />
+    <option name="totallyTimeSpent" value="49278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -633,7 +627,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -643,7 +637,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -653,7 +647,7 @@
         <state relative-caret-position="255">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <marker date="1524658683495" expanded="true" signature="2572:2608" ph="..." />
           </folding>
         </state>
@@ -670,7 +664,7 @@
     <entry file="file://$PROJECT_DIR$/../бетон_old/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3716">
-          <caret line="1127" column="19" lean-forward="true" selection-start-line="1127" selection-start-column="19" selection-end-line="1127" selection-end-column="19" />
+          <caret line="1127" column="19" lean-forward="false" selection-start-line="1127" selection-start-column="19" selection-end-line="1127" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -678,7 +672,7 @@
     <entry file="file://$PROJECT_DIR$/../бетон_old/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13022">
-          <caret line="766" column="0" lean-forward="true" selection-start-line="765" selection-start-column="9" selection-end-line="766" selection-end-column="0" />
+          <caret line="766" column="0" lean-forward="false" selection-start-line="765" selection-start-column="9" selection-end-line="766" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -710,7 +704,7 @@
     <entry file="file://$PROJECT_DIR$/../бетон_old/callback.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -741,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="374">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -754,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="742" column="1" lean-forward="true" selection-start-line="742" selection-start-column="1" selection-end-line="742" selection-end-column="1" />
+        <state relative-caret-position="331">
+          <caret line="687" column="11" lean-forward="true" selection-start-line="687" selection-start-column="11" selection-end-line="687" selection-end-column="11" />
           <folding />
         </state>
       </provider>
