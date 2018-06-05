@@ -24,7 +24,7 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 .wrap_header {
   width: 100%;
   height: 100vh;
-  background: url("img/background.jpg")center no-repeat;
+  background: url("img/backgroun_main.jpg")center no-repeat;
   background-size: cover;
   overflow: hidden;
 }
@@ -66,7 +66,6 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 }
 .callback_popup_open {
 position: relative;
-margin-left: 10px;
 left: 400px;
 top: -20px;
 z-index: 1;
@@ -122,7 +121,6 @@ z-index: 1;
 }
 .header_form p {
   margin-top: -40px;
-
   padding: 36px 0 60px 0;
   font-size: 16px;
   color: white;
@@ -139,6 +137,7 @@ z-index: 1;
   color: #fff;
   letter-spacing: 3px;
   padding: 13px;
+  top: 1px;
   text-align: center;
   position: relative;
   left: 50%;
@@ -163,7 +162,7 @@ z-index: 1;
   position: absolute;
   left: 50%;
   margin-left: -155px;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 /*icon*/
 .icon_works {
@@ -405,7 +404,6 @@ box-sizing: content-box;
 
 .callback_popup_open {
   position: relative;
-  margin-left: 10px;
 }
 .img-circleblock {
   cursor: pointer;
@@ -681,7 +679,8 @@ box-sizing: content-box;
   }
   .btn_order {
     font-size: 10px;
-    margin-left: -152px;
+    margin-left: -220px;
+    top: 0;
 
   }
   .header_form p {
@@ -705,15 +704,17 @@ box-sizing: content-box;
     margin-top: 42px;
   }
   .wrap_header {
-    height: 85vh;
+    height: 77vh;
   }
   .icon {
     width: 50%;
   }
   .icon_works {
     height: 650px;
-
-
+  }
+  .works_btn {
+    top: 30px;
+    margin-left: -200px;
   }
 }
 @media (max-width: 460px) {
@@ -721,7 +722,7 @@ box-sizing: content-box;
     height: 80vh;
   }
   .callback_popup_open {
-    left: 264px;
+    left: 300px;
   }
   .callback-inputs {
     margin: 39px 10px;
@@ -733,5 +734,17 @@ box-sizing: content-box;
   .callback-content {
     padding: 50px 0;
   }
+  .btn_order {
+    margin-left: -267px;
+  }
+  .works_btn {
+    margin-left: -150px;
+  }
 }
+@media (max-width: 460px){
+  .wrap_header {
+    height: 85vh;
+  }
+}
+
 
