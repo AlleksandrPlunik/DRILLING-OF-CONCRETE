@@ -42,6 +42,3 @@ function checkInputs(inputs) {
     
     return status;
 }
-$('.btn_order').click( function () {
-  $('#callback_popup').addEventListener()
-})
