@@ -179,7 +179,7 @@ align-content: center;
 .works {
   position: relative;
 background: #d7dfe1;
-padding-bottom: 89px;
+padding-bottom: 50px;
   overflow: hidden;
 }
 .works h2 {
@@ -188,6 +188,14 @@ font-size: 26px;
 font-weight: 500;
 padding-top: 60px;
 padding-bottom: 40px;
+
+}
+.works h3{
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  padding-top: 20x;
+  padding-bottom: 20px;
 
 }
 .works_wrap {
@@ -420,46 +428,53 @@ box-sizing: content-box;
   margin: 0 auto;
   padding: 0;
 }
-.slick-next {
-  position: absolute;
-  z-index: 9999;
-  top: 50%;
-  left: 0;
-  width: 35px;
-  cursor: pointer;
-  background: black;
-  border-radius: 50%;
-  display: block;
-  border: none;
+.slider p {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
 }
 
-
-
+.slick-next {
+position: absolute;
+z-index: 9999;
+top: 55%;
+left: 20px;
+cursor: pointer;
+display: block!important;
+border: none;
+background: none;
+}
 .slick-prev {
-  position: absolute;
-  z-index: 9999;
-  top: 50%;
-  right: 0;
-  width: 35px;
-  cursor: pointer;
-  background: black;
-  border-radius: 50%;
-  display: block;
-  border: none;
+position: absolute;
+z-index: 9999;
+top: 55%;
+right: 20px;
+cursor: pointer;
+display: block!important;
+border: none;
+background: none;
 }
 .slick-prev img {
-  width: 30px;
-  color: white;
+  width: 40px;
 }
 .slick-next img {
-  width: 30px;
-  color: white;
+  width: 40px;
 }
 
 .slick-prev::before {
   height: 155px;
   width: 35px;
-  background: rgba(0, 0, 0, .6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-next::before {
+  height: 155px;
+  width: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -467,6 +482,39 @@ box-sizing: content-box;
 .slick-slide img {
   display: block;
   margin: 0 auto;
+  width: 95%;
+}
+
+.s-next {
+  position: absolute;
+  z-index: 9999;
+  top: 44%;
+  left: 20px;
+  cursor: pointer;
+  display: block;
+  border: none;
+  background: none;
+}
+.s-prev {
+  position: absolute;
+  z-index: 9999;
+  top: 44%;
+  right: 20px;
+  cursor: pointer;
+  display: block;
+  border: none;
+  background: none;
+}
+.slider_1 p {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+.slider_2 h2 {
+  padding-top: 0;
 }
 
 

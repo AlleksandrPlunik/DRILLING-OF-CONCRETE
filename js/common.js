@@ -20,13 +20,26 @@
 
 	}).trigger('resize');
 
-	$('.slider-second').slick({
-		slidesToShow: 1,
-		infinite: true,
-		nextArrow: '<i class="fa fa-angle-right fyrnityre-arrow" aria-hidden="true"></i>',
-		prevArrow: '<i class="fa fa-angle-left fyrnityre-arrow" aria-hidden="true"></i>',
-		speed: 600
-	});
+  let $slider2 = $('.slider_1');
+  $(window).on('resize', function () {
+    if ($slider2.attr('data-init')) $slider1.slick('unslick');
+    $slider1.attr('data-init',true);
+    let slidesCount = 3;
+    let sliderWidth = $('.slider-container').width();
+    if (sliderWidth < 1200) slidesCount = 2;
+    if (sliderWidth < 800) slidesCount = 1;
+    $slider2.slick({
+      slidesToShow: slidesCount,
+      infinite: true,
+      nextArrow: '.s-next',
+      prevArrow: '.s-prev',
+      speed: 300,
+      autoplay: true,
+      slidesToScroll: 1,
+    });
+
+
+  }).trigger('resize');
 
 })(jQuery);
 
