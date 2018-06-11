@@ -413,6 +413,13 @@ box-sizing: content-box;
   opacity: 1;
 }
 
+
+/*slider*/
+.slider-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+}
 .slick-next {
   position: absolute;
   z-index: 9999;
@@ -420,7 +427,7 @@ box-sizing: content-box;
   left: 0;
   width: 35px;
   cursor: pointer;
-  background: white;
+  background: black;
   border-radius: 50%;
   display: block;
   border: none;
@@ -435,10 +442,18 @@ box-sizing: content-box;
   right: 0;
   width: 35px;
   cursor: pointer;
-  background: white;
+  background: black;
   border-radius: 50%;
   display: block;
   border: none;
+}
+.slick-prev img {
+  width: 30px;
+  color: white;
+}
+.slick-next img {
+  width: 30px;
+  color: white;
 }
 
 .slick-prev::before {
@@ -448,6 +463,10 @@ box-sizing: content-box;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.slick-slide img {
+  display: block;
+  margin: 0 auto;
 }
 
 
