@@ -12,8 +12,8 @@
 			infinite: true,
 			nextArrow: '.slick-next',
 			prevArrow: '.slick-prev',
-			speed: 300,
-			autoplay: true,
+			speed: 400,
+			autoplay: false,
 			slidesToScroll: 1,
 		});
 
@@ -33,8 +33,8 @@
       infinite: true,
       nextArrow: '.s-next',
       prevArrow: '.s-prev',
-      speed: 300,
-      autoplay: true,
+      speed: 400,
+      autoplay: false,
       slidesToScroll: 1,
     });
 

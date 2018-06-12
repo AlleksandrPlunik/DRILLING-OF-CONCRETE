@@ -65,17 +65,18 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 .callback_popup_open {
 position: relative;
 left: 400px;
-top: -16px;
+top: 4px;
 z-index: 1;
 }
 .phone {
-width: 240px;
- padding-top: 27px;
-margin-left: 140px;
-font-size: 24px;
+  position: relative;
+  width: 240px;
+  top: 27px;
+  margin-left: 140px;
+  font-size: 24px;
   color: black;
   font-weight: 900;
-z-index: 1;
+  z-index: 1;
 
 }
 .img_avatar {
@@ -440,7 +441,7 @@ box-sizing: content-box;
 .slick-next {
 position: absolute;
 z-index: 9999;
-top: 55%;
+top: 50%;
 left: 20px;
 cursor: pointer;
 display: block!important;
@@ -450,7 +451,7 @@ background: none;
 .slick-prev {
 position: absolute;
 z-index: 9999;
-top: 55%;
+top: 50%;
 right: 20px;
 cursor: pointer;
 display: block!important;
@@ -482,13 +483,13 @@ background: none;
 .slick-slide img {
   display: block;
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
 }
 
 .s-next {
   position: absolute;
   z-index: 9999;
-  top: 44%;
+  top: 40%;
   left: 20px;
   cursor: pointer;
   display: block;
@@ -498,7 +499,7 @@ background: none;
 .s-prev {
   position: absolute;
   z-index: 9999;
-  top: 44%;
+  top: 40%;
   right: 20px;
   cursor: pointer;
   display: block;
@@ -514,7 +515,10 @@ background: none;
   color: black;
 }
 .slider_2 h2 {
-  padding-top: 0;
+  padding-top: 40px;
+}
+.slider_2 {
+  padding-bottom: 90px;
 }
 
 
@@ -777,6 +781,7 @@ background: none;
   }
   .callback_popup_open {
     left:350px;
+    top: 15px;
   }
   .btn_order {
     font-size: 13px;
@@ -814,8 +819,11 @@ background: none;
     padding-top: 50px;
   }
   .icon {
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
+  }
+  .icon p {
+    color: white;
   }
   .icon_works {
     margin: 0 auto;
@@ -833,6 +841,13 @@ background: none;
     left: 0;
     width: 310px;
     font-size: 12px;
+  }
+  .phone a {
+    text-shadow: white 0 0 2px;
+  }
+  .works h2 {
+    font-size: 20px;
+
   }
 }
 @media (max-width: 375px){
